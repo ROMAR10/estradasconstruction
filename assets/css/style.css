@@ -16,7 +16,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #03C4EB;
+  color: #2320E1;
   transition: 0.5s;
 }
 
@@ -67,7 +67,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #03C4EB;
+  background: #2320E1;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -81,7 +81,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #1bd6fc;
+  background: #151387;
   color: #fff;
 }
 
@@ -147,7 +147,7 @@ h6 {
 #hero h2 span {
   color: #fff;
   transition: 0.3s;
-  border-bottom: 2px solid #03C4EB;
+  border-bottom: 2px solid #2320E1;
 }
 
 @media (max-width: 768px) {
@@ -180,8 +180,8 @@ h6 {
 }
 
 #hero .btn-get-started {
-  background: #03C4EB;
-  border: 2px solid #03C4EB;
+  background: #2320E1;
+  border: 2px solid #2320E1;
   color: #fff;
 }
 
@@ -197,8 +197,8 @@ h6 {
 }
 
 #hero .btn-services:hover {
-  background: #03C4EB;
-  border: 2px solid #03C4EB;
+  background: #2320E1;
+  border: 2px solid #2320E1;
 }
 
 /*--------------------------------------------------------------
@@ -295,7 +295,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #03C4EB;
+  color: #2320E1;
 }
 
 .navbar .dropdown ul {
@@ -425,7 +425,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #03C4EB;
+  color: #2320E1;
 }
 
 .navbar-mobile .getstarted,
@@ -492,7 +492,7 @@ section {
 .section-title-divider {
   width: 50px;
   height: 3px;
-  background: #03C4EB;
+  background: #2320E1;
   margin: 0 auto;
   margin-bottom: 20px;
 }
@@ -556,10 +556,10 @@ section {
 
 #services .service-icon {
   float: left;
-  background: #03C4EB;
+  background: #2320E1;
   border-radius: 50%;
   transition: 0.5s;
-  border: 1px solid #03C4EB;
+  border: 1px solid #2320E1;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -578,10 +578,11 @@ section {
 }
 
 #services .service-item:hover .service-icon i {
-  color: #03C4EB;
+  color: #2320E1;
 }
 
 #services .service-title {
+  color: #000;
   margin-left: 80px;
   font-weight: 700;
   margin-bottom: 15px;
@@ -595,6 +596,10 @@ section {
 #services .service-description {
   margin-left: 80px;
   line-height: 24px;
+}
+
+#services h4 {
+  color: red;
 }
 
 /* Subscribe Section
@@ -668,7 +673,7 @@ section {
 
 #portfolio #portfolio-flters li:hover,
 #portfolio #portfolio-flters li.filter-active {
-  color: #03C4EB;
+  color: #2320E1;
 }
 
 #portfolio #portfolio-flters li:last-child {
@@ -716,7 +721,7 @@ section {
 
 #portfolio .portfolio-item .portfolio-info .preview-link:hover,
 #portfolio .portfolio-item .portfolio-info .details-link:hover {
-  color: #03C4EB;
+  color: #2320E1;
 }
 
 #portfolio .portfolio-item .portfolio-info .details-link {
@@ -748,11 +753,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #03C4EB;
+  border: 1px solid #2320E1;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #03C4EB;
+  background-color: #2320E1;
 }
 
 .portfolio-details .portfolio-info {
@@ -889,11 +894,11 @@ section {
 }
 
 #team .member .social a {
-  color: #b3b3b3;
+  color: #2320E1;
 }
 
 #team .member .social a:hover {
-  color: #03C4EB;
+  color: #b3b3b3;
 }
 
 #team .member .social i {
@@ -913,7 +918,7 @@ section {
 }
 
 #contact a:hover {
-  color: #03C4EB;
+  color: #2320E1;
 }
 
 #contact .info {
@@ -922,7 +927,7 @@ section {
 
 #contact .info i {
   font-size: 32px;
-  color: #03C4EB;
+  color: #2320E1;
   float: left;
   line-height: 0;
 }
@@ -1094,5 +1099,5 @@ section {
 
 #footer .socialmedia-icon:hover {
     font-size: 300%;
-    color: #03C4EB;
+    color: #2320E1;
 }
