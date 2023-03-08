@@ -581,6 +581,17 @@ section {
   color: #2320E1;
 }
 
+#services .service-icon img {
+  filter: invert(100%);
+  width: 65%;
+  margin: auto;
+  display: block;
+}
+
+#services .service-item:hover .service-icon img {
+  filter: invert(30%) sepia(91%) saturate(7426%) hue-rotate(242deg) brightness(84%) contrast(111%);
+}
+
 #services .service-title {
   color: #000;
   margin-left: 80px;
@@ -715,7 +726,7 @@ section {
   position: absolute;
   right: 15px;
   font-size: 28px;
-  top: calc(50% - 28px);
+  top: calc(50% - 21px);
   color: #4d4d4d;
 }
 
